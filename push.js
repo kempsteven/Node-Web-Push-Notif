@@ -10,12 +10,6 @@ push.setVapidDetails('mailto:hehe@mailinator.com',
     vapidKeys.privateKey
 )
 
-let sub = {
-    "endpoint": "https://fcm.googleapis.com/fcm/send/dl8ZZC4nsH0:APA91bFTwl2FxqADMV9qdmyN1gV69VD0G2A5x9hLU_Tr73IkaVRTWufNyWwwXcadfkFMFyn62nM5szvYtwnsGK2ShlujzCdLWmaCMPyiUr8LkwJSC3dTJ6bUQGSOcFhDn1ZT70BQbItG",
-    "expirationTime": null,
-    "keys": {
-        "p256dh": "BCTKhTAOtKuuDdbhTvXE8VtCF_YzEuyLv03X9UN75wuaLZyeXyJ1D3kx86lJw1e6cY5sDWIvwdwQRgSusTvklNw",
-        "auth": "jNxGyaYnYVn7DLD8T2ADjw"
-    }
-}
+const sub = { "endpoint": "https://updates.push.services.mozilla.com/wpush/v2/gAAAAABeNTL2-XwtMdwTHfUJv5B61AaVZoYLivqxe2HnlNZzSWrAaenF10VReWGurMSIzl_UUFGVH-UwiOTQHNZNtj79UbtHqWj2h3ze6dr7nLfSzCVg8d3UGfez0535blgluDrpknAijVIBwrnY5j-2yAivgV6ZHPUiWdR9wFHI42X0mDWX_To", "keys": { "auth": "7sHMgoKYvgTwdmvADoiPoA", "p256dh": "BD2rkCYKxBjNWRrAOhVGrH6UbPdqNFPiJoqMhDWTxtNg2RG3v6RpNugFJ3LlidZoZrylkl95LOH0SIzCuleWDhE" } }
 
+push.sendNotification(sub, 'test message aaaaaa')
