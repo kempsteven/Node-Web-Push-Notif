@@ -10,5 +10,12 @@ push.setVapidDetails('mailto:hehe@mailinator.com',
     vapidKeys.privateKey
 )
 
-let sub = {}
+let sub = {
+    "endpoint": "https://fcm.googleapis.com/fcm/send/dl8ZZC4nsH0:APA91bFTwl2FxqADMV9qdmyN1gV69VD0G2A5x9hLU_Tr73IkaVRTWufNyWwwXcadfkFMFyn62nM5szvYtwnsGK2ShlujzCdLWmaCMPyiUr8LkwJSC3dTJ6bUQGSOcFhDn1ZT70BQbItG",
+    "expirationTime": null,
+    "keys": {
+        "p256dh": "BCTKhTAOtKuuDdbhTvXE8VtCF_YzEuyLv03X9UN75wuaLZyeXyJ1D3kx86lJw1e6cY5sDWIvwdwQRgSusTvklNw",
+        "auth": "jNxGyaYnYVn7DLD8T2ADjw"
+    }
+}
 
